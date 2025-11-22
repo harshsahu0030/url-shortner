@@ -1,0 +1,11 @@
+BACKEND 
+
+-Implement backend
+-Add express and middlewares
+-Connect server to mongoDB
+-Create Models/ Routes and Controllers
+
+
+
+FRONTEND
+-Install react using vite
