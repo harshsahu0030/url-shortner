@@ -25,9 +25,6 @@ app.use(cookieParser());
 import urlRoute from "./routes/urlRoute.js";
 
 //using routes
-app.use("/", (req, res) => {
-  return res.status(200).json({ message: "API is running..." });
-});
 app.use("/api/links", urlRoute);
 
 export default app;
